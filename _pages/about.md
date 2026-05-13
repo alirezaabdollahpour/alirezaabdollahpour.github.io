@@ -2,25 +2,57 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: M.Sc. Researcher, <a href="https://www.epfl.ch/" target="_blank">EPFL</a> · Lausanne, Switzerland
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><strong>Chair of Risk Analytics &amp; Optimization</strong></p>
+    <p><strong>Signal Processing Lab (LTS4)</strong></p>
+    <p>EPFL, Lausanne, Switzerland</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: true
+latest_posts: true
+selected_papers: true
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a graduate researcher at **EPFL**, working at the intersection of the
+[Chair of Risk Analytics and Optimization (RAO)](https://www.epfl.ch/labs/rao/) with
+[Prof. Daniel Kuhn](https://people.epfl.ch/daniel.kuhn) and the
+[Signal Processing Laboratory (LTS4)](https://www.epfl.ch/labs/lts4/) with
+[Prof. Pascal Frossard](https://people.epfl.ch/pascal.frossard).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am drawn to the **mathematical foundations of deep learning** — *why* neural networks
+fail under adversarial perturbations and distribution shift, and what principled
+algorithms follow. My work spans **adversarial robustness**, **generalization**, and
+**post-training methods** (model merging, model editing) for foundation models, with
+recent focus on the **optimal-transport geometry** of adversarial training and
+**distributionally robust optimization**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I aim to derive rigorous guarantees and turn them into deployable algorithms. My
+research has appeared at **NeurIPS**, **ICML**, and **ICLR**.
+
+Before EPFL, I completed a B.Sc. in Electrical Engineering & Computer Science at
+**Amirkabir University of Technology (Tehran Polytechnic)**.
+
+---
+
+#### Research interests
+
+- Adversarial robustness and certified defenses
+- Distributionally robust optimization & optimal transport
+- Model merging, model soups, and weight-space methods
+- Robust fine-tuning of vision–language foundation models (CLIP)
+- Linear mode connectivity and the loss landscape
+
+#### What I am working on now
+
+- **Brenier maps for adversarial training** — an OT-geometric reformulation of
+  adversarial training, toward provably robust learning algorithms (with E. Sharifian,
+  B. Sen, M. Cuturi, D. Kuhn).
+- **MonoSoup** — a hyperparameter-free, data-free post-hoc method that recovers
+  Model-Soup-level OOD accuracy from a *single* fine-tuned checkpoint, reducing
+  ensembling cost from $\mathcal{O}(K)$ to $\mathcal{O}(1)$ (ICML 2026).

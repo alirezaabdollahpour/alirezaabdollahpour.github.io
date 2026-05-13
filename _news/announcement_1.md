@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-05-13 09:00:00+0200
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+New blog post: <a href="{{ '/blog/2026/centaurs-gambit/' | relative_url }}">The Centaur's Gambit &mdash; how AI is elevating scientific research, just as engines revolutionized chess</a>.
