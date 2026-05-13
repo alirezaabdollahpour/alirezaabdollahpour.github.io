@@ -3,8 +3,8 @@ layout: post
 title: "The Centaur's Gambit: How AI is Elevating Scientific Research, Just as Engines Revolutionized Chess"
 date: 2026-05-13 09:00:00 +0200
 description: A retrospective look at the post&ndash;Deep Blue chess world, and what it tells us about AI in modern academic research.
-tags: ai research machine-learning chess
-categories: essays
+tags: research chess-engines
+categories: My-reflections
 featured: true
 giscus_comments: false
 related_posts: false
@@ -24,7 +24,7 @@ The fear that engines would end chess was empirically dismantled by the subseque
 
 - **The Explosion of Grandmasters.** In 1997, there were roughly 500 Grandmasters worldwide. Today, there are over **1,700**. Engines democratized access to world-class coaching. A player no longer needed to be born in a Soviet chess hub; anyone with a laptop had access to an infallible analytical partner (like Stockfish or AlphaZero).
 
-- **The Age of Mastery Plummeted.** In 1990, the youngest GM in history was Judit Polgár at 15 years and 4 months. By 2021, Abhimanyu Mishra shattered the record, becoming a GM at just **12 years and 4 months**. Engines have drastically compressed the learning curve, allowing younger minds to internalize complex patterns in a fraction of the historical time.
+- **The Age of Mastery Plummeted.** In 1991, the youngest GM in history was Judit Polgár at 15 years and 4 months and 28 days old. By 2021, Abhimanyu Mishra shattered the record, becoming a GM at just **12 years and 4 months**. Engines have drastically compressed the learning curve, allowing younger minds to internalize complex patterns in a fraction of the historical time.
 
 Instead of mimicking machines, top players learned to *harness* them &mdash; giving rise to **"Centaur Chess"** (Human + AI), which consistently outperforms either an unassisted human or an unguided machine.
 
@@ -42,7 +42,7 @@ Today, however, the landscape has radically changed:
 
 - **Pre-Ph.D. Dominance.** We are witnessing an unprecedented wave of Master's students, and even ambitious undergraduates, publishing highly cited, state-of-the-art papers in these exact conferences.
 
-- **Compressed Timelines.** Just as chess engines allowed a 12-year-old to achieve Grandmaster status, AI coding assistants (like GitHub Copilot) and reasoning models allow junior researchers to iterate on complex deep learning architectures in *weeks* rather than semesters. They can rapidly prototype PyTorch models, debug CUDA memory issues, and format complex equations in LaTeX with minimal friction.
+- **Compressed Timelines.** Just as chess engines allowed a 12-year-old to achieve Grandmaster status, AI coding assistants and reasoning models allow junior researchers to iterate on complex deep learning architectures in *weeks* rather than semesters. They can rapidly prototype PyTorch models, debug CUDA memory issues, and format complex equations in LaTeX with minimal friction.
 
 - **Focus on Innovation over Implementation.** Because the "mechanical" aspects of research are being augmented by AI, a brilliant idea from a Master's student is no longer bottlenecked by their immediate coding proficiency or resource limitations.
 
