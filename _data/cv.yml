@@ -46,7 +46,7 @@
         - "<strong>A. Abdollahpoorrostam</strong>, M. Abroshan, S.-M. Moosavi-Dezfooli. <em>SuperDeepFool: A New Fast and Accurate Minimal Adversarial Attack.</em> Advances in Neural Information Processing Systems (<strong>NeurIPS 2024</strong>)."
     - title: Under Review
       items:
-        - "<strong>A. Abdollahpoorrostam</strong>, E. Sharifian, B. Sen, M. Cuturi, D. Kuhn. <em>Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning.</em> Submitted to NeurIPS 2026."
+        - "<strong>A. Abdollahpoorrostam</strong>, Ehsan Sharifian, Buse Şen, Marco Cuturi, Daniel Kuhn. <em>Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning.</em> Under review."
     - title: Workshop Papers &amp; Preprints
       items:
         - "<strong>A. Abdollahpoorrostam</strong>. <em>In Search of the Successful Interpolation: On the Role of Sharpness in CLIP Generalization.</em> NeurIPS 2024 AdvML-Frontiers Workshop."
@@ -61,7 +61,7 @@
       description:
         - "Advisor: Prof. Daniel Kuhn, Lausanne, Switzerland."
         - "Bridging <strong>optimal transport</strong> and <strong>adversarial training</strong>: OT-geometric formulations of adversarial training via Brenier maps, toward principled, provably robust learning algorithms."
-        - "<em>Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning</em> (with E. Sharifian, B. Sen, M. Cuturi, D. Kuhn) &mdash; submitted to NeurIPS 2026."
+        - "<em>Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning</em> (with Ehsan Sharifian, Buse Şen, Marco Cuturi, Daniel Kuhn) &mdash; under review."
 
     - title: Graduate Researcher
       institution: EPFL &mdash; Signal Processing Laboratory (LTS4)
