@@ -57,6 +57,6 @@ Before EPFL, I completed a B.Sc. in Electrical Engineering & Computer Science at
 - **[OptiSelect](https://arxiv.org/abs/2610.03432)** — a new preprint with **Simin Fan**
   and **Martin Jaggi** on optimizer-aware data selection and training recipes for
   efficient **LLM pretraining**.
-- **MonoSoup** — a hyperparameter-free, data-free post-hoc method that recovers
+- **[MonoSoup](https://proceedings.mlr.press/v306/abdollahpoorrostam26a.html)** — a hyperparameter-free, data-free post-hoc method that recovers
   Model-Soup-level OOD accuracy from a *single* fine-tuned checkpoint, reducing
   ensembling cost from $\mathcal{O}(K)$ to $\mathcal{O}(1)$ (ICML 2026).

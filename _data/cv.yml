@@ -42,7 +42,7 @@
     - title: Conference Papers
       items:
         - "<strong>A. Abdollahpoorrostam</strong>, E. Sharifian, B. Şen, M. Cuturi, D. Kuhn. <a href='https://arxiv.org/abs/2609.31363'><em>Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning.</em></a> Accepted at <strong>NeurIPS 2026</strong>."
-        - "<strong>A. Abdollahpoorrostam</strong>, N. Dimitriadis, A. Hazimeh, P. Frossard. <em>Model Soups Need Only One Ingredient.</em> International Conference on Machine Learning (<strong>ICML 2026</strong>)."
+        - "<strong>A. Abdollahpoorrostam</strong>, N. Dimitriadis, A. Hazimeh, P. Frossard. <a href='https://proceedings.mlr.press/v306/abdollahpoorrostam26a.html'><em>Model Soups Need Only One Ingredient.</em></a> International Conference on Machine Learning (<strong>ICML 2026</strong>)."
         - "M. Salmani, <strong>A. Abdollahpoorrostam</strong>, S.-M. Moosavi-Dezfooli. <em>A General Framework for Black-Box Attacks under Cost Asymmetry.</em> International Conference on Learning Representations (<strong>ICLR 2026</strong>)."
         - "<strong>A. Abdollahpoorrostam</strong>, M. Abroshan, S.-M. Moosavi-Dezfooli. <em>SuperDeepFool: A New Fast and Accurate Minimal Adversarial Attack.</em> Advances in Neural Information Processing Systems (<strong>NeurIPS 2024</strong>)."
     - title: Preprints
@@ -69,7 +69,7 @@
       year: Sept. 2024 &ndash; Aug. 2025
       description:
         - "Advisor: Prof. Pascal Frossard, Lausanne, Switzerland."
-        - "Published <strong>MonoSoup</strong>, a hyperparameter-free, data-free post-hoc method that recovers Model-Soup-level out-of-distribution accuracy from a <em>single</em> fine-tuned checkpoint by applying SVD to per-layer updates and re-weighting high-/low-energy directions; reduces ensembling cost from $\\mathcal{O}(K)$ to $\\mathcal{O}(1)$. (<strong>ICML 2026</strong>)"
+        - "Published <a href='https://proceedings.mlr.press/v306/abdollahpoorrostam26a.html'><strong>MonoSoup</strong></a>, a hyperparameter-free, data-free post-hoc method that recovers Model-Soup-level out-of-distribution accuracy from a <em>single</em> fine-tuned checkpoint by applying SVD to per-layer updates and re-weighting high-/low-energy directions; reduces ensembling cost from $\\mathcal{O}(K)$ to $\\mathcal{O}(1)$. (<strong>ICML 2026</strong>)"
 
     - title: External Research Collaborator
       institution: Trustworthy ML Collaboration with Dr. S.-M. Moosavi-Dezfooli
