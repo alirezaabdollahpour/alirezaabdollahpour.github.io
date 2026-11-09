@@ -108,5 +108,5 @@
         - Wasserstein-DRO for deep learning
     - title: Foundation models, pretraining &amp; post-training
       items:
-        - Optimizer-aware data selection and efficient LLM pretraining
+        - LLM post-training and pre-training
         - Model merging, model soups, weight-space ensembling

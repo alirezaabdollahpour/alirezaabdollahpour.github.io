@@ -45,7 +45,7 @@ Before EPFL, I completed a B.Sc. in Electrical Engineering & Computer Science at
 
 - Adversarial robustness and certified defenses
 - Distributionally robust optimization & optimal transport
-- LLM pretraining, optimization, and data curricula
+- LLM post-training and pre-training
 - Model merging, model soups, and weight-space methods
 
 #### Recent research
