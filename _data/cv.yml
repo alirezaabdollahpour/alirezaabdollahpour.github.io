@@ -110,5 +110,3 @@
       items:
         - Optimizer-aware data selection and efficient LLM pretraining
         - Model merging, model soups, weight-space ensembling
-        - Robust fine-tuning of vision&ndash;language models (CLIP)
-        - Linear mode connectivity and the loss landscape

@@ -47,8 +47,6 @@ Before EPFL, I completed a B.Sc. in Electrical Engineering & Computer Science at
 - Distributionally robust optimization & optimal transport
 - LLM pretraining, optimization, and data curricula
 - Model merging, model soups, and weight-space methods
-- Robust fine-tuning of vision–language foundation models (CLIP)
-- Linear mode connectivity and the loss landscape
 
 #### Recent research
 
