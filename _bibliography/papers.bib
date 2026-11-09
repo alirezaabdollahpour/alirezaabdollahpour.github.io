@@ -1,6 +1,39 @@
 ---
 ---
 
+@inproceedings{abdollahpoorrostam2026brenier,
+  abbr={NeurIPS},
+  bibtex_show={true},
+  title={Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning},
+  author={Abdollahpoorrostam, Alireza and Sharifian, Ehsan and Şen, Buse and Cuturi, Marco and Kuhn, Daniel},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  note={Accepted},
+  year={2026},
+  arxiv={2609.31363},
+  url={https://arxiv.org/abs/2609.31363},
+  pdf={https://arxiv.org/pdf/2609.31363},
+  slides={brenier_adversarial_training_slides.pptx},
+  abstract={We study Wasserstein-penalized distributionally robust learning through transport maps and show that optimal adversarial maps are cyclically monotone. Standard per-sample adversarial training can violate this structure and waste transport cost. We develop multi-start particle ascent with reassignment and adversarial maps parameterized by gradients of input-convex neural networks, improving robustness and generalization under distribution shift.},
+  selected={true}
+}
+
+@article{fan2026optiselect,
+  abbr={Preprint},
+  bibtex_show={true},
+  title={{OptiSelect}: How does the Optimizer Shape Data Curriculum?},
+  author={Fan, Simin and Abdollahpoorrostam, Alireza and Jaggi, Martin},
+  journal={arXiv preprint},
+  year={2026},
+  eprint={2610.03432},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  arxiv={2610.03432},
+  url={https://arxiv.org/abs/2610.03432},
+  pdf={https://arxiv.org/pdf/2610.03432},
+  abstract={OptiSelect is an optimizer-aware online data selection framework for efficient LLM pretraining. We characterize how optimizer geometry shapes the value of candidate training examples and derive a principle linking selection gains to the discriminability of utility scores. Experiments on 124M- and 720M-parameter models support practical recipes for combining data selection with AdamW and Muon, including under data rephrasing.},
+  selected={true}
+}
+
 @inproceedings{abdollahpoorrostam2026monosoup,
   abbr={ICML},
   bibtex_show={true},
@@ -31,18 +64,6 @@
   booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
   year={2024},
   abstract={SuperDeepFool is a fast, accurate minimal-l_2 adversarial attack derived from a geometric reformulation of the DeepFool iteration. It computes provably small perturbations with state-of-the-art quality and runtime.},
-  selected={true}
-}
-
-@unpublished{abdollahpoorrostam2026brenier,
-  abbr={Preprint},
-  bibtex_show={true},
-  title={Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning},
-  author={Abdollahpoorrostam, Alireza and Sharifian, Ehsan and Şen, Buse and Cuturi, Marco and Kuhn, Daniel},
-  note={Under review},
-  year={2026},
-  slides={brenier_adversarial_training_slides.pptx},
-  abstract={We recast adversarial training through the lens of optimal transport. Using Brenier maps, we derive an OT-geometric formulation that yields principled, provably robust learning algorithms.},
   selected={true}
 }
 

@@ -20,7 +20,7 @@
   type: list
   contents:
     - I am drawn to the <strong>mathematical foundations of deep learning</strong> &mdash; why neural networks fail under adversarial perturbations and distribution shift, and what principled algorithms follow.
-    - My research spans <strong>robustness</strong>, <strong>generalization</strong>, and <strong>post-training methods</strong> (model merging, model editing) for foundation models, with recent work on the <strong>optimal-transport geometry</strong> of adversarial training and <strong>distributionally robust optimization</strong>.
+    - My research spans <strong>robustness</strong>, <strong>generalization</strong>, and <strong>post-training methods</strong> (model merging, model editing) for foundation models, with recent work on the <strong>optimal-transport geometry</strong> of adversarial training, <strong>distributionally robust optimization</strong>, and <strong>optimizer-aware data selection for LLM pretraining</strong>.
     - I aim to derive rigorous guarantees and translate them into deployable algorithms, with work appearing at <strong>NeurIPS</strong>, <strong>ICML</strong>, and <strong>ICLR</strong>.
 
 - title: Education
@@ -41,13 +41,14 @@
   contents:
     - title: Conference Papers
       items:
+        - "<strong>A. Abdollahpoorrostam</strong>, E. Sharifian, B. Şen, M. Cuturi, D. Kuhn. <a href='https://arxiv.org/abs/2609.31363'><em>Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning.</em></a> Accepted at <strong>NeurIPS 2026</strong>."
         - "<strong>A. Abdollahpoorrostam</strong>, N. Dimitriadis, A. Hazimeh, P. Frossard. <em>Model Soups Need Only One Ingredient.</em> International Conference on Machine Learning (<strong>ICML 2026</strong>)."
         - "M. Salmani, <strong>A. Abdollahpoorrostam</strong>, S.-M. Moosavi-Dezfooli. <em>A General Framework for Black-Box Attacks under Cost Asymmetry.</em> International Conference on Learning Representations (<strong>ICLR 2026</strong>)."
         - "<strong>A. Abdollahpoorrostam</strong>, M. Abroshan, S.-M. Moosavi-Dezfooli. <em>SuperDeepFool: A New Fast and Accurate Minimal Adversarial Attack.</em> Advances in Neural Information Processing Systems (<strong>NeurIPS 2024</strong>)."
-    - title: Under Review
+    - title: Preprints
       items:
-        - "<strong>A. Abdollahpoorrostam</strong>, Ehsan Sharifian, Buse Şen, Marco Cuturi, Daniel Kuhn. <em>Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning.</em> Under review."
-    - title: Workshop Papers &amp; Preprints
+        - "S. Fan, <strong>A. Abdollahpoorrostam</strong>, M. Jaggi. <a href='https://arxiv.org/abs/2610.03432'><em>OptiSelect: How does the Optimizer Shape Data Curriculum?</em></a> arXiv preprint, 2026."
+    - title: Workshop Papers
       items:
         - "<strong>A. Abdollahpoorrostam</strong>. <em>In Search of the Successful Interpolation: On the Role of Sharpness in CLIP Generalization.</em> NeurIPS 2024 AdvML-Frontiers Workshop."
         - "<strong>A. Abdollahpoorrostam</strong>, A. Sanyal, S.-M. Moosavi-Dezfooli. <em>Unveiling CLIP Dynamics: Linear Mode Connectivity and Generalization.</em> ICML 2024 Foundation Models in the Wild Workshop."
@@ -61,7 +62,7 @@
       description:
         - "Advisor: Prof. Daniel Kuhn, Lausanne, Switzerland."
         - "Bridging <strong>optimal transport</strong> and <strong>adversarial training</strong>: OT-geometric formulations of adversarial training via Brenier maps, toward principled, provably robust learning algorithms."
-        - "<em>Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning</em> (with Ehsan Sharifian, Buse Şen, Marco Cuturi, Daniel Kuhn) &mdash; under review."
+        - "<a href='https://arxiv.org/abs/2609.31363'><em>Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning</em></a> (with Ehsan Sharifian, Buse Şen, Marco Cuturi, Daniel Kuhn) &mdash; accepted at <strong>NeurIPS 2026</strong>."
 
     - title: Graduate Researcher
       institution: EPFL &mdash; Signal Processing Laboratory (LTS4)
@@ -105,8 +106,9 @@
       items:
         - Brenier-map formulations of adversarial training
         - Wasserstein-DRO for deep learning
-    - title: Foundation models &amp; post-training
+    - title: Foundation models, pretraining &amp; post-training
       items:
+        - Optimizer-aware data selection and efficient LLM pretraining
         - Model merging, model soups, weight-space ensembling
         - Robust fine-tuning of vision&ndash;language models (CLIP)
         - Linear mode connectivity and the loss landscape
